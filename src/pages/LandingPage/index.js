@@ -72,7 +72,7 @@ class LandingPage extends React.Component {
     return (
       <LandingPageComponent>
         <Grid className="conatiner" container>
-          <Grid item xs={12} md={10}>
+          <Grid item xs={12} lg={8} md={10}>
             <SearchBox />
             <Grid className="dailyTemp">{daily.map((ele,idx) => (<DayCard key={idx} imgSrc={ele.weather[0].main} weatherType={ele.weather[0].main} day={moment(ele.dt*1000).format('ddd')} maxTemp={Math.floor(ele.temp.max)} minTemp={Math.floor(ele.temp.min)} />))}</Grid>
             <Grid>

@@ -13,6 +13,9 @@ const DayCardComponent =styled.div`
   width: 75px;
   font-size: 12px;
   font-weight: 600;
+    text-align: center;
+    justify-content: center;
+  
 }
 .weatherType{
   font-size: 10px;

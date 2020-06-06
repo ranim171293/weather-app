@@ -8,7 +8,7 @@ class SearchBox extends React.PureComponent {
   render() {
     return(
       <SearchBoxComponent>
-      <Grid>
+      <Grid style={{position: 'relative'}}>
       <LocationOnIcon className="locationIcon" />
       <input className="searchItem" placeholder="Mumbai, Maharashtra" type="text" />
       <SearchIcon className="searchIcon"></SearchIcon> 

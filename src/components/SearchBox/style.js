@@ -9,33 +9,35 @@ const SearchBoxComponent = styled.div`
   box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
   border: 2px solid #ffffff;
   @media (max-width: 600px){
-    width:81%;
+    width:83%;
+  }
+  @media (max-width: 960px) and (min-width: 600px){
+    width: 90%
   }
 }
 .locationIcon{
   position: absolute;
   top: 21px;
-  left: 65px;
-  @media (max-width: 600px){
+  left: 5px;
+  @media (max-width: 960px) and (min-width: 600px){
     top:23px;
-    left: 20px;
+    left: 5px;
   }
 }
 .searchIcon {
   position: absolute;
   top: 22px;
-  right: 65px;
+  right: 10px;
   color: black;
   @media (max-width: 600px){
     top: 23px;
-    right: 25px;
+    right: 5px;
+  }
+  @media (max-width: 960px) and (min-width: 600px){
+    top: 23px;
+    right: 5px;
   }
 }
-// @media(max-width: 600){
-//   .searchItem {
-//     width:100%;
-//   }
-// }
 `;
 
 export default SearchBoxComponent;

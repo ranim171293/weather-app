@@ -16,6 +16,9 @@ align-items: center;
   @media (max-width: 600px){
     padding: 0px 16px;
   }
+  @media (max-width: 960px) and (min-width: 600px){
+    padding: 0px 16px;
+  }
 }
 .todayTemp {
   display: flex;
@@ -32,6 +35,10 @@ align-items: center;
   flex-direction: row;
   overflow: scroll;
   margin: 30px 0px;
+  @media (max-width: 960px) and (min-width: 600px){
+    text-align: center;
+    justify-content: center;
+  }
 }
 .temp {
   font-size: 40px;
