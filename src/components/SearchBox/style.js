@@ -8,8 +8,11 @@ const SearchBoxComponent = styled.div`
   padding: 16px 30px;
   box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
   border: 2px solid #ffffff;
-  @media (max-width: 600px){
+  @media (max-width: 480px){
     width:83%;
+  }
+  @media (max-width: 600px) and (min-width: 480px){
+    width: 89%;
   }
   @media (max-width: 960px) and (min-width: 600px){
     width: 90%
@@ -20,7 +23,7 @@ const SearchBoxComponent = styled.div`
   top: 21px;
   left: 5px;
   @media (max-width: 960px) and (min-width: 600px){
-    top:23px;
+    top:21px;
     left: 5px;
   }
 }
