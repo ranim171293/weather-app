@@ -82,7 +82,7 @@ class LandingPage extends React.Component {
                   <span>{current && current.weather && current.weather[0].main !== null ? this.showImage(current && current.weather && current.weather[0].main) : null}</span>
                 </Grid>
                 <Graph hourlyData={hourly === [] ? null : this.plotGraph(hourly)} />
-                <Grid className="todayTemp">
+                <Grid className="todayTempInfo">
                   <div className="humidInfo"><div className="preText">Pressure</div>
                   <div className="valText">{current && current.pressure} hpa</div></div>
                   <div className="humidInfo"><div className="preText">Humidity</div

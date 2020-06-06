@@ -23,7 +23,17 @@ align-items: center;
 .todayTemp {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-around;;
+  align-items: center;
+  padding: 16px;
+  @media (max-width: 600px){
+    justify-content: start;
+  }
+}
+.todayTempInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;;
   align-items: center;
   padding: 16px;
 }
